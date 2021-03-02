@@ -27,7 +27,7 @@ table tr th {
     </tr>
     <?php foreach ($data as $row) {?>
       <tr>
-        <td><?php echo $row["migration"] ?></td>
+        <td><?php echo $row["gvhjfgghuj"] ?></td>
         <td><?php echo $row["migrated_at"] ?></td>
       </tr>
     <?php } ?>
