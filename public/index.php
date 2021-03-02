@@ -1,6 +1,6 @@
 <?php
 
-$dbconn = pg_connect("host=cblpostgres124142357.postgres.database.azure.com port=5432 dbname=phpapp");
+$dbconn = pg_connect("host=cblpostgres124142357.postgres.database.azure.com port=5432 dbname=phpapp user=nadmin password=pass#word1123 sslmode=require");
 $result = pg_query($dbconn, "SELECT migration, migrated_at FROM schema_migrations");
 $data = pg_fetch_all($result);
 ?>
