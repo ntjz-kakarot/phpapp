@@ -22,12 +22,12 @@ table tr th {
 <div class="table-container">
   <table>
     <tr>
-      <th>migration</th>
+      <th>migration_suthula</th>
       <th>migrated_at</th>
     </tr>
     <?php foreach ($data as $row) {?>
       <tr>
-        <td><?php echo $row["gvhjfgghuj"] ?></td>
+        <td><?php echo $row["migration"] ?></td>
         <td><?php echo $row["migrated_at"] ?></td>
       </tr>
     <?php } ?>
